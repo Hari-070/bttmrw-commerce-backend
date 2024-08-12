@@ -1,0 +1,10 @@
+Cart:
+    -Verify the user in auth
+    else create a user-id
+    -check the product-id already exist, if exist update only the quantity else create the product with the product-id in the Cart
+
+Placement questions:
+operating system-> process: scheduling, ( SQL ), networks, DBMS (join, nested queries), linux- user vs kernal
+
+
+customer name,address,ph.no, products[], order date, estimate delivery date, user email address
