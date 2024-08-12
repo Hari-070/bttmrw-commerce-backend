@@ -9,7 +9,7 @@ const mongoose=require('mongoose')
 const app=express()
 app.use(express.json())
 app.use(cors())
-mongoose.connect("mongodb://localhost:27017/ecom")
+mongoose.connect("mongodb+srv://harianand2102:7okhbh6WEnBWvE7E@ecom.h5vx0xr.mongodb.net/?retryWrites=true&w=majority&appName=ecom")
 .then(()=>{
     console.log("connected to mongodb");
 })
